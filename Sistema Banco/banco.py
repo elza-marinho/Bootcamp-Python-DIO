@@ -35,16 +35,8 @@ while True:
             total += valor
             print(f"seu saldo atual é R${total:.2f}")
 
-
-
-
-
-
     elif opcao == "3":
         print(f"Seu saldo é R$: {total:.2f}")
-
-
-
 
     elif opcao == "0":
         print("Sair")

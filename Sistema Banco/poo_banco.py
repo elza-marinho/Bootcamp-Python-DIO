@@ -44,7 +44,7 @@ def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
         saldo -= valor
         extrato += f"Saque:\t\tR$ {valor:.2f}\n"
         numero_saques += 1
-        print("\n Saque realizado com sucesso!")
+        print("\n Saque realizado com sucesso")
 
     else:
         print("\n Operação falhou! O valor informado é inválido. ")
